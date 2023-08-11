@@ -37,7 +37,7 @@ def retrieval_qa_chain(llm, prompt,db):
 #Loading the model
 def load_llm():
     # Load the locally downloaded model here
-    llm = OpenAI(openai_api_key='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')
+    llm = OpenAI(openai_api_key='your-openai-key')
     return llm
 
 #QA Model Function
